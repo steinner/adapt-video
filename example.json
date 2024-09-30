@@ -1,0 +1,24 @@
+{
+  "_id":"c-05",
+  "_parentId":"b-05",
+  "_type":"component",
+  "_component":"videoPage",
+  "_classes":"",
+  "titleVideo": "Sistemas da moda",
+  "textoTitle": "Assista ao vídeo e conheça mais sobre os sistemas produtivos da moda. ",
+  "_media": {
+    "_source": "//www.youtube.com/watch?v=OCXJzLBLTuk",
+    "_controls": true,
+    "_allowFullscreen": true,
+    "_playsinline": false,
+    "_aspectRatio": 1.33,
+    "_autoplay": false,
+    "_showRelated": false,
+    "_loop": false,
+    "_modestBranding": true,
+    "_playbackQuality": "hd720",
+    "_showAnnotations": false,
+    "_progressColor": "red"
+},
+"legenda": "Vídeo 1 - Titulo do vídeo"
+}

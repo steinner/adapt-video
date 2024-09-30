@@ -1,0 +1,14 @@
+{
+  "name": "adapt-videoPage",
+  "version": "1.0.0",
+  "description": "Página de vídeo do tema de Fundamentos da Moda.",
+  "main": "js/adapt-capaInicial.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.2.5"
+  }
+}

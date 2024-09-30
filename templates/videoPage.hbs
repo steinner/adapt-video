@@ -1,0 +1,51 @@
+<div class="component__inner videoPage__inner">
+    <div class="lines-decor"></div>
+
+    <div class="container flex-center">
+        <div class="video-top">
+            <div class="icon-video">
+                <img src="assets/Vector.png" alt="Ícone" class="iconepagvideo">
+            </div>
+
+            <div class="video-title-box">
+                <div class="video-title">
+                    <span>Vídeo</span>
+                    <span>/</span>
+                    <span class="v-title">
+                        {{titleVideo}}
+                    </span>
+                </div>
+                <div class="video-subtitle">
+                    {{textoTitle}}
+                </div>
+            </div>
+        </div>
+
+        <div class="cont-video">
+            <div> 
+                {{#if _media._source}}
+                    <iframe width="100%" height="450px" style="width:100%;"
+                    src="{{_media._source~}}
+                    ?&autoplay={{#if _media._autoplay}}1{{else}}0{{/if~}}
+                    &rel={{#if _media._showRelated}}1{{else}}0{{/if~}}
+                    &loop={{#if _loop}}1{{else}}0{{/if~}}
+                    &modestbranding={{#if _media._modestBranding}}1{{else}}0{{/if~}}
+                    &color={{#if _media._progressColor}}{{_media._progressColor}}{{/if~}}
+                    &controls={{#if _media._controls}}1{{else}}0{{/if~}}
+                    &playsinline={{#if _media._playsinline}}1{{else}}0{{/if~}}
+                    &enablejsapi=1&iv_load_policy={{#if _media._showAnnotations}}1{{else}}3{{/if~}}"
+                    {{#if _media._allowFullscreen}} allowfullscreen="true"{{/if}}
+                    frameborder="0">
+                    </iframe>
+                {{else}}
+                    ERROR: Vídeo não incluido
+                {{/if}}
+            </div>
+            <div style="text-align: right; margin-top: 10px;">
+                <p class="legenda-video">
+                    {{legenda}}
+                </p>
+            </div>    
+        </div>
+    </div>
+</div>

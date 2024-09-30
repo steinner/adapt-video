@@ -1,0 +1,77 @@
+.videoPage__inner{
+    .lines-decor {
+        background: url(img/Subtract.png);
+        width: 100px;
+        height: 450px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: -1;
+      }
+      
+    .flex-center{
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        height: 100%;
+        justify-content: center;
+    }
+    .container{
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        position: relative; 
+        height: 100%;
+        z-index: 1;
+    }    
+    /**********************************
+    VIDEO PAGE
+    **********************************/
+    .video-border {
+        border-radius: 100px 0 0 0;
+    }
+    .video-top {
+        display: flex;
+        width: 100%;
+    }
+    .icon-video {
+        background-color: @item-color;
+        padding: 10px;
+        width: 75px;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .video-title {
+        font-size: 20px;
+        text-transform: uppercase;
+        display: flex;
+        gap: 10px;
+        line-height: 28px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: @item-color;
+    }
+    .video-title-box {
+        border-top: 2px solid white;
+        padding: 25px;
+        flex: 1;
+    }
+    .video-subtitle {
+        text-align: left;
+        padding: 25px 2px;
+        font-size: 20px;
+    }
+    .cont-video {
+        width: 100%;
+    }
+    .cont-video iframe{
+        width: 100% !important;
+        height: 450px !important;
+    }
+  
+
+}
